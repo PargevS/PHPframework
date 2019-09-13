@@ -4,9 +4,12 @@ define('ROOT', dirname(__DIR__) );
 define('CONF', ROOT . '/config');
 define('CORE', ROOT . '/vendor/PHPframework/core');
 define('LIBS', ROOT . '/vendor/PHPframework/libs');
-define('TEMPLEATES', ROOT . '/templates');
+define('RESOURCES', ROOT . '/resources');
+define('VIEWS', ROOT . '/resources/views');
+define('LAYOUT', 'default');
 define('CACHE', ROOT . '/var/cache');
 define('LOG', ROOT . '/var/log');
+
 
 
 
